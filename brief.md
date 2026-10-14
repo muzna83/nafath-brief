@@ -15,8 +15,17 @@ Resource: Google Machine Learning Crash Course - Dividing the Original Dataset -
 When offline, a responder's mobile app should clearly show its connection status and save permitted data locally so that unsent work is not lost. When the connection returns, the app should synchronize queued changes securely, resolve conflicts, and prevent duplicate submissions. It should display the last update time and clearly indicate whether an emergency message has been sent successfully. This helps responders make informed decisions even when connectivity is interrupted.
 
 Resource: Android Developers - Offline-first architecture - https://developer.android.com/topic/architecture/data-layer/offline-first
-Networking
-Cybersecurity
-Data
+## Networking 
+In a 5G network, congestion can delay emergency calls and data transmission. Network engineers monitor traffic, prioritize critical services, and use alternative paths to maintain connectivity during failures. Quality of Service (QoS) helps give important traffic the required network resources. Continuous monitoring also helps operators identify bottlenecks before they seriously affect emergency responders.
+
+Resource: 3GPP - 5G System Overview - https://www.3gpp.org/technologies/5g-system-overview
+## Cybersecurity
+A cybersecurity incident affecting a 5G service may expose sensitive information or interrupt emergency communications. The response team should prepare an incident response plan, detect and analyze suspicious activity, contain the incident, and remove its cause. Recovery restores affected systems and services, while lessons learned help prevent similar incidents. Clear communication and documented actions support an effective response.
+
+Resource: NIST - Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800/61/r2/final
+## Data
+Reliable data helps operators understand network performance and respond to service problems. Monitoring systems collect information such as traffic volume, latency, packet loss, and service availability. Teams analyze these measurements to identify unusual patterns and predict possible congestion. Data must be accurate, protected from unauthorized access, and available only to authorized staff. Good data management supports faster and better operational decisions.
+
+Resource: Google Cloud - What is observability? - https://cloud.google.com/learn/what-is-observability
 Misconception in My Track
 Open Question

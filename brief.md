@@ -27,5 +27,9 @@ Resource: NIST - Computer Security Incident Handling Guide - https://csrc.nist.g
 Reliable data helps operators understand network performance and respond to service problems. Monitoring systems collect information such as traffic volume, latency, packet loss, and service availability. Teams analyze these measurements to identify unusual patterns and predict possible congestion. Data must be accurate, protected from unauthorized access, and available only to authorized staff. Good data management supports faster and better operational decisions.
 
 Resource: Google Cloud - What is observability? - https://cloud.google.com/learn/what-is-observability
-Misconception in My Track
-Open Question
+## Misconception in My Track
+A common misconception in cybersecurity is that incident response is complete as soon as the attack is contained. In reality, incident response also includes preparation, detection and analysis, containment, eradication, recovery, and lessons learned. Containment limits the immediate damage, but the team must also remove the threat, restore affected services safely, and review what happened to improve future responses. For a 5G emergency service, stopping an attack is not enough if responders still cannot communicate reliably. The NIST Computer Security Incident Handling Guide explains these stages in the section titled “Incident Response Life Cycle.”
+
+Resource reference: NIST - Computer Security Incident Handling Guide - https://csrc.nist.gov/pubs/sp/800/61/r2/final
+## Open Question
+How can a cybersecurity team restore a disrupted 5G emergency service quickly while ensuring that the attacker cannot regain access?
